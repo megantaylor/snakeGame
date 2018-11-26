@@ -28,7 +28,7 @@ I tested this in the latest versions of Chrome, Firefox and Safari.
 - what happens if this is loaded on a mobile device?
 - what should the game do if the window is resized during play?
 - speed value decrease actually means the game is going faster, convert this into a user-friendly unit in UI
-- set upper limit on snake speed to prevent setTimeout issues
+- set upper limit on snake speed?
 - canvas lines seem blurry
 - add game over screen instead of alert
 - make canvas area responsive to screen size (figure out what the ideal canvas size for this game is?)
