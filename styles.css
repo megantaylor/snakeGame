@@ -1,0 +1,25 @@
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gameData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#gameCanvas {
+  align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    width: 500px;
+  }
+}

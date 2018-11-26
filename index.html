@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake Game</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section>
+      <h1>Snake Game</h1>
+      <ul>
+        <li>
+          Use your arrow keys to change the snake's direction: up, left, right,
+          and down.
+        </li>
+        <li>Eat food to gain points.</li>
+        <li>Don't run the snake into the wall, or its own tail.</li>
+        <li>
+          Each time the snake eats, the snake will grow, and the game will get a
+          little bit faster.
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="gameData">
+        <p>Speed: <span id="speed"></span></p>
+        <p>Score: <span id="score"></span></p>
+        <button type="button" id="startGame">Play!</button>
+      </div>
+
+      <canvas id="gameCanvas" height="300" width="300"> </canvas>
+    </section>
+    <script type="text/javascript" src="snake.js"></script>
+  </body>
+</html>
