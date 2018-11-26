@@ -19,7 +19,7 @@ I tested this in the latest versions of Chrome, Firefox and Safari.
 - ~3 hours of coding time
 - client-side app
 - vanilla JavaScript
-- ES6 where appropriate
+- ES6 where appropriate 
 
 # Next Steps
 
